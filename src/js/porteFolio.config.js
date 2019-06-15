@@ -7,14 +7,20 @@
         // Configuration des routes
         $routeProvider
             // On dit que le chemin peut prendre un paramètre qui est l'id
-            .when('/boutDeLURL', {
-                templateUrl:'partial/recipes.html'
+            .when('/accueil', {
+                templateUrl:'partial/accueil.html'
             })
-            .when('/',{
-                templateUrl:'partial/cellar.html'
+            .when('/competences',{
+                templateUrl:'partial/competences.html'
+            })
+            .when('', {
+
+            })
+            .when('', {
+
             })
             .otherwise({
-                redirectTo:'/recipes'
+                redirectTo:'/partial/accueil.html'
             })
     }
 ]);
