@@ -20,7 +20,7 @@
 
             })
             .otherwise({
-                redirectTo:'/partial/accueil.html'
+                redirectTo:'/accueil'
             })
     }
 ]);
